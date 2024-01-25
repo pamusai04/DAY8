@@ -1,0 +1,38 @@
+Question 1
+
+//1.Create a class Employee with folloeing properties and methods:
+// salary(property)(int)
+// get salery (method returning int)
+// name (property)(String)
+// get name  (method returning String)
+// setname  (method changing name)
+	
+
+
+class Employee {
+    int salary;
+    String name;
+
+    public int getSalary() {
+        return salary;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String n) {
+        name = n;
+    }
+}
+
+class DAY8_PQ1  {
+    public static void main(String[] args) {
+        Employee harry = new Employee();
+        harry.setName("codeWithHarry");
+        harry.salary=233;
+        System.out.println(harry.getName());
+        System.out.println(harry.getSalary());
+    }
+}
+

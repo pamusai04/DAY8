@@ -1,0 +1,28 @@
+Question 5
+//5. create a class TommyVecetti for Rockstar Games capable of Hitting (print hitting), running,firing etc.
+
+class Tommy {
+	public void hit(){
+		System.out.println("Hitting the enemey ");
+	}
+	public void run(){
+		System.out.println("Running from the enemey ");
+	}
+	public void fire(){
+		System.out.println("Firing on the enemey ");
+	}
+
+}
+
+
+class DAY8_PQ5  {
+    public static void main(String[] args) {
+        Tommy player1 = new Tommy();
+	player1.fire();
+	player1.run();
+	player1.hit();
+	
+    }
+}
+
+

@@ -1,0 +1,25 @@
+Question 2
+//2.create  a class cellPhone with methods to print "Ringing....","Vibrating..." etc.
+class cellPhone{
+	public void ring(){
+		System.out.println("Ringing...");
+	}
+	public void vibrate(){
+		System.out.println("Vibrating...");
+	}
+	public void callFriend(){
+		System.out.println("Calling Mukul...");
+	}
+}
+
+
+class DAY8_PQ2  {
+    public static void main(String[] args) {
+        cellPhone asus=new cellPhone();
+	asus.callFriend();
+	asus.vibrate();
+	asus.ring();
+    }
+}
+
+

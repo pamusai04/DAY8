@@ -1,0 +1,29 @@
+Question 4
+//4 create a class Rectangle 8 repete 3 
+//3. create a class square with a method to initialize its side, calculating area, perimeter etc.
+
+class Rectangle {
+	int length;
+	int width;
+	public int area(){
+		return length * width ;
+	}
+	public int perimeter(){
+		return 2*(length * width);
+	}
+
+}
+
+
+class DAY8_PQ4  {
+    public static void main(String[] args) {
+        Rectangle re=new Rectangle();
+	re.length=4;
+	re.width=3;
+	System.out.println(re.area());
+	System.out.println(re.perimeter());
+	
+    }
+}
+
+

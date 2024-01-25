@@ -1,0 +1,27 @@
+Question 6
+//6. create a class circle with a method to initialize its Radius, calculating area, perimeter etc.
+
+
+class Circle {
+	double radius;
+    double pi;;
+	public double area(){
+		return pi * (radius * radius) ;
+	}
+	public double perimeter(){
+		return 2 * (radius * pi);
+	}
+
+}
+
+
+class DAY8_PQ6  {
+    public static void main(String[] args) {
+        Circle c = new Circle();
+        c.radius = 2.5;
+        c.pi = 22.0 / 7.0; // Corrected pi value, using double precision
+        System.out.println("Area: " + c.area());
+        System.out.println("Perimeter: " + c.perimeter());
+	
+    }
+}
